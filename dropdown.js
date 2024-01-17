@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
+    console.log('Script loaded and DOM content loaded.');
     // Find all elements with the class slide-down-button
     var slideDownButtons = document.querySelectorAll('.slide-down-button');
     
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function toggleSection(button) {
+    console.log('button fired');
     // Get the closest parent element with the class page-section
     var pageSection = button.closest('.page-section');
 
