@@ -13,14 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Hide the section below
         if (sectionBelow) {
-            sectionBelow.classList.add('close');
+            sectionBelow.classList.add('close','below-section');
           pageSection.classList.add('toggle-section')
         }
     });
 });
 
 function toggleSection(button) {
-    console.log('button fired');
     // Get the closest parent element with the class page-section
     var pageSection = button.closest('.page-section');
 
