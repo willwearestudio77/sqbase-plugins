@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Hide the section below
         if (sectionBelow) {
-            sectionBelow.classList.add('close','below-section');
+            sectionBelow.classList.add('close', 'below-section');
           pageSection.classList.add('toggle-section')
         }
     });
